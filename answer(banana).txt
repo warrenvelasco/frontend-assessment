@@ -1,0 +1,7 @@
+Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.? 
+
+Answer:
+- First, 'b' and 'a' concatenates and form 'ba'
+- ( + 'a' ) this is attempt to force the 'a' string convert to number using the plus sign '+' but 'a' cannot be converted to number so resulting to 'NaN' or Not a Number
+- The NaN value concatenates to string 'ba' and concatenates to last string 'a' form 'baNaNa'
+- Lastly the form string 'baNaNa' convert to lower case string using toLowerCase() method
