@@ -1,5 +1,5 @@
 Exercise 1
-
+---
 ##### Tech Used
 * React
 * Vite
@@ -10,7 +10,7 @@ Exercise 1
 * npm run dev
 
 Exercise 2
-
+---
 ##### Tech Used
 * React
 * Vite
